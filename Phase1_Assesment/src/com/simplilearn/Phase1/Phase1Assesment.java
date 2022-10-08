@@ -130,6 +130,10 @@ public class Phase1Assesment {
 			System.out.println("Going back to main menu ");
 			MainMenu();
 			break;
+
+                default:System.out.println("Please enter valid Input (1 or 2 or 3 or 4), Invalid Input\n\n\n");
+			BusinessOpMenu();
+			break;
 		}
 
 	}
